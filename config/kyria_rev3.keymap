@@ -15,28 +15,28 @@
 #define STICKY_TIMEOUT 500
 
 // LEFT SIDE
-#define TLI 17 // TOP
-#define TLM 16 // TOP
-#define TLR 15 // TOP
-#define TLP 14 // TOP
-#define BLI 29 // BOTTOM
-#define BLM 28 // BOTTOM
-#define BLR 27 // BOTTOM
-#define BLP 26 // BOTTOM
-#define LOT 44 // O-THUMB
-#define LIT 43 // I-THUMB
+#define TLI 16 // TOP
+#define TLM 15 // TOP
+#define TLR 14 // TOP
+#define TLP 13 // TOP
+#define BLI 28 // BOTTOM
+#define BLM 27 // BOTTOM
+#define BLR 26 // BOTTOM
+#define BLP 25 // BOTTOM
+#define LOT 43 // O-THUMB
+#define LIT 42 // I-THUMB
 
 // RIGHT SIDE
-#define TRI 20 // TOP
-#define TRM 21 // TOP
-#define TRR 22 // TOP
-#define TRP 23 // TOP
-#define BRI 36 // BOTTOM
-#define BRM 37 // BOTTOM
-#define BRR 38 // BOTTOM
-#define BRP 39 // BOTTOM
-#define ROT 47 // O-THUMB
-#define RIT 48 // I-THUMB
+#define TRI 19 // TOP
+#define TRM 20 // TOP
+#define TRR 21 // TOP
+#define TRP 22 // TOP
+#define BRI 35 // BOTTOM
+#define BRM 36 // BOTTOM
+#define BRR 37 // BOTTOM
+#define BRP 38 // BOTTOM
+#define ROT 46 // O-THUMB
+#define RIT 47 // I-THUMB
 
 &sk {
     release-after-ms = <STICKY_TIMEOUT>;
