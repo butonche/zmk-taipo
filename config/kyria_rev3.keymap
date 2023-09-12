@@ -15,26 +15,26 @@
 #define STICKY_TIMEOUT 500
 
 // LEFT SIDE
-#define TLI  4 // TOP
-#define TLM  3 // TOP
-#define TLR  2 // TOP
-#define TLP  1 // TOP
-#define BLI 16 // BOTTOM
-#define BLM 15 // BOTTOM
-#define BLR 14 // BOTTOM
-#define BLP 13 // BOTTOM
+#define TLI 16 // TOP
+#define TLM 15 // TOP
+#define TLR 14 // TOP
+#define TLP 13 // TOP
+#define BLI 28 // BOTTOM
+#define BLM 27 // BOTTOM
+#define BLR 26 // BOTTOM
+#define BLP 25 // BOTTOM
 #define LOT 43 // O-THUMB
 #define LIT 44 // I-THUMB
 
 // RIGHT SIDE
-#define TRI  7 // TOP
-#define TRM  8 // TOP
-#define TRR  9 // TOP
-#define TRP 10 // TOP
-#define BRI 19 // BOTTOM
-#define BRM 20 // BOTTOM
-#define BRR 21 // BOTTOM
-#define BRP 22 // BOTTOM
+#define TRI 19 // TOP
+#define TRM 20 // TOP
+#define TRR 21 // TOP
+#define TRP 22 // TOP
+#define BRI 35 // BOTTOM
+#define BRM 36 // BOTTOM
+#define BRR 37 // BOTTOM
+#define BRP 38 // BOTTOM
 #define ROT 46 // O-THUMB
 #define RIT 45 // I-THUMB
 
