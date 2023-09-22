@@ -1,7 +1,7 @@
 manifest:
   remotes:
     - name: vvv-ca
-      url-base: https://github.com/vvv-ca/zmk
+      url-base: https://github.com/vvv-ca
   projects:
     - name: zmk
       remote: vvv-ca
