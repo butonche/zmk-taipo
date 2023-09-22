@@ -1,11 +1,11 @@
 manifest:
   remotes:
-    - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
+    - name: vvv-ca
+      url-base: https://github.com/vvv-ca/zmk
   projects:
     - name: zmk
-      remote: zmkfirmware
-      revision: main
+      remote: vvv-ca
+      revision: combo-rolling
       import: app/west.yml
   self:
     path: config
