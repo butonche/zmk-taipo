@@ -23,8 +23,8 @@
 #define BLM 10 // BOTTOM
 #define BLR 9 // BOTTOM
 #define BLP 8 // BOTTOM
-#define LOT 17 // O-THUMB
-#define LIT 16 // I-THUMB
+#define LOT 16 // O-THUMB
+#define LIT 17 // I-THUMB
 
 // RIGHT SIDE
 #define TRI 4 // TOP
@@ -35,8 +35,8 @@
 #define BRM 13 // BOTTOM
 #define BRR 14 // BOTTOM
 #define BRP 15 // BOTTOM
-#define ROT 20 // O-THUMB
-#define RIT 21 // I-THUMB
+#define ROT 21 // O-THUMB
+#define RIT 20 // I-THUMB
 
 &sk {
     release-after-ms = <STICKY_TIMEOUT>;
