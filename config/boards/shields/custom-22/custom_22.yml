@@ -1,0 +1,14 @@
+file_format: "1"
+id: custom_22
+name: custom_22
+type: shield
+url: https://splitkb.com/products/kyria-pcb-kit
+requires: [seeeduino_xiao_ble]
+exposes: [i2c_oled]
+features:
+  - keys
+  - display
+siblings:
+  - custom_22_left
+  - custom_22_right
+  - custom_22_dongle
