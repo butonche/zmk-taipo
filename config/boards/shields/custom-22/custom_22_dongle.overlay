@@ -41,7 +41,7 @@
         display-offset = <0>;
         multiplex-ratio = <63>;
         prechargep = <0x22>;
-        com_invdir = "true";
+        com-invdir = "true";
     };
 };
 &xiao_spi { status = "disabled"; };
