@@ -1,6 +1,6 @@
 manifest:
   remotes:
-    - name: vvv-ca
+    - name: butonche
       url-base: https://github.com/butonche
   projects:
     - name: zmk
