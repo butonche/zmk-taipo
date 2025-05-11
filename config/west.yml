@@ -1,10 +1,10 @@
 manifest:
   remotes:
     - name: vvv-ca
-      url-base: https://github.com/vvv-ca
+      url-base: https://github.com/butonche
   projects:
     - name: zmk
-      remote: vvv-ca
+      remote: butonche
       revision: combo-rolling
       import: app/west.yml
   self:
