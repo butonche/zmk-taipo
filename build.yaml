@@ -14,7 +14,7 @@
 ---
 include:
   - board: seeeduino_xiao_ble
-    shield: custom_22_dongle
+    shield: custom_22_dongle dongle_display
   - board: seeeduino_xiao_ble
     shield: custom_22_left
   - board: seeeduino_xiao_ble
