@@ -1,5 +1,0 @@
-#include "custom_22.dtsi"
-
-&default_transform {
-    col-offset = <11>;
-};
