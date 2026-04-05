@@ -9,6 +9,9 @@ manifest:
       remote: zmkfirmware
       revision: v0.3
       import: app/west.yml
+    - name: zmk-shield-custom-22
+      remote: butonche
+      revision: main
     - name: zmk-feature-rolling-combos
       remote: butonche
       revision: main
