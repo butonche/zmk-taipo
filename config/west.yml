@@ -4,7 +4,7 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: butonche
       url-base: https://github.com/butonche
-   - name: englmaxi
+    - name: englmaxi
       url-base: https://github.com/englmaxi
   projects:
     - name: zmk
