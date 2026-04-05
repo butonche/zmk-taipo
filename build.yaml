@@ -13,11 +13,11 @@
 #
 ---
 include:
-  - board: seeeduino_xiao_ble
+  - board: xiao_ble//zmk
     shield: custom_22_dongle
-  - board: seeeduino_xiao_ble
+  - board: xiao_ble//zmk
     shield: custom_22_left
-  - board: seeeduino_xiao_ble
+  - board: xiao_ble//zmk
     shield: custom_22_right
-  - board: seeeduino_xiao_ble
+  - board: xiao_ble//zmk
     shield: settings_reset
