@@ -3,7 +3,7 @@ id: custom_22
 name: custom_22
 type: shield
 url: https://splitkb.com/products/kyria-pcb-kit
-requires: [seeeduino_xiao]
+requires: [seeed_xiao]
 exposes: [i2c_oled]
 features:
   - keys
