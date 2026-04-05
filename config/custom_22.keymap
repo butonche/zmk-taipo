@@ -45,7 +45,7 @@
 
 / {
   rolling_combos {
-    compatible = "zmk,combos";
+    compatible = "zmk,rolling-combos";
     #include "taipo.dtsi"
   };
 
