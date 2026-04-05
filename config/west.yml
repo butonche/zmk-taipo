@@ -1,11 +1,16 @@
 manifest:
   remotes:
+    - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware
     - name: butonche
       url-base: https://github.com/butonche
   projects:
     - name: zmk
-      remote: butonche
+      remote: zmkfirmware
       revision: combo-rolling
       import: app/west.yml
+    - name: zmk-feature-rolling-combos
+      remote: butonche
+      revision: main
   self:
     path: config
