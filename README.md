@@ -3,19 +3,6 @@
 This repo contains the [ZMK](https://zmkfirmware.dev/) firmware for the Taipo layout.
 The official description of the layout can be found on the [Inclusive Keyboards Taipo Page](https://inkeys.wiki/en/keymaps/taipo).
 
-## Supported Devices
-
-- Ferris Sweep (aka cradio)
-- Corne (untested)
-
-## Usage
-
-- Navigate to the [Github Actions](https://github.com/dlip/zmk-taipo/actions) tab and select the latest build
-- In the artifacts section download firmware.zip
-- Unzip firmware.zip
-- Put your device into bootloader mode
-- Copy the appropriate .uf2 file to your device
-
 ## Layout
 
 This configuration has some modifications from the original layout:
@@ -149,32 +136,5 @@ Input Output Outer Inner Both
 ---#
 ```
 
-## Local Development
-
-### Docker
-
-#### Setup and build
-
-```
-scripts/docker-image.sh
-scripts/docker-dev.sh
-west init -l config
-west update
-west zephyr-export
-west build -p -s zmk/app -b nice_nano_v2 -- -DSHIELD="cradio_left" -DZMK_CONFIG="$PWD/config"
-```
-
-The firmware file will be `build/zephyr/zmk.uf2`
-
-#### Resume after quitting
-
-```
-  docker start -i zmk-taipo-dev
-```
-
-#### Clean up
-
-```
-  docker rm zmk-taipo-dev
 ```
 
