@@ -15,7 +15,7 @@
 include:
   - board: seeeduino_xiao_ble
     shield: custom_22_dongle dongle_display
-    snippet: zmk-usb-logging
+#    snippet: zmk-usb-logging
   - board: seeeduino_xiao_ble
     shield: custom_22_left
   - board: seeeduino_xiao_ble
