@@ -2,6 +2,7 @@
 include:
   - board: seeeduino_xiao_ble
     shield: xiao_dongle dongle_display
+    snippet: zmk-usb-logging
   - board: seeeduino_xiao_ble
     shield: custom_22
     artifact-name: custom_22_left
@@ -9,5 +10,6 @@ include:
     shield: custom_22
     artifact-name: custom_22_right
   - board: efogtech_trackball_0
+    snippet: zmk-usb-logging
   - board: seeeduino_xiao_ble
     shield: settings_reset
