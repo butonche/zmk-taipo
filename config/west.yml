@@ -20,6 +20,7 @@ manifest:
     - name: zmk-board-efogtech-trackball-0
       remote: butonche
       revision: main
+      import: config/west.yml
     - name: zmk-feature-rolling-combos
       remote: butonche
       revision: main
