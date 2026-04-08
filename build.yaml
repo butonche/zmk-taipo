@@ -9,6 +9,7 @@ include:
   - board: seeeduino_xiao_ble
     shield: custom_22
     artifact-name: custom_22_right
+    cmake-args: -DEXTRA_DTC_OVERLAY_FILE="../../config/custom_22_right.overlay"
   - board: efogtech_trackball_0
     snippet: zmk-usb-logging
   - board: seeeduino_xiao_ble
