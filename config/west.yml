@@ -11,14 +11,22 @@ manifest:
       remote: zmkfirmware
       revision: v0.3
       import: app/west.yml
+    - name: zmk-shield-xiao-dongle
+      remote: butonche
+      revision: main
     - name: zmk-shield-custom-22
       remote: butonche
       revision: main
+    - name: zmk-board-efogtech-trackball-0
+      remote: butonche
+      revision: main
+      import: config/west.yml
     - name: zmk-feature-rolling-combos
       remote: butonche
       revision: main
     - name: zmk-dongle-display
       remote: englmaxi
       revision: v0.3
+
   self:
     path: config

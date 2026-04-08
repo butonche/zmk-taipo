@@ -1,0 +1,4 @@
+/* Right half — shift columns by 11 */
+&default_transform {
+    col-offset = <11>;
+};

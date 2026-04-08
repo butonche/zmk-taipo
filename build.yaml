@@ -1,24 +1,13 @@
-# This file generates the GitHub Actions matrix
-# For simple board + shield combinations, add them
-# to the top level board and shield arrays, for more
-# control, add individual board + shield combinations to
-# the `include` property, e.g:
-#
-# board: [ "nice_nano_v2" ]
-# shield: [ "corne_left", "corne_right" ]
-# include:
-#   - board: bdn9_rev2
-#   - board: nice_nano_v2
-#     shield: reviung41
-#
 ---
 include:
   - board: seeeduino_xiao_ble
-    shield: custom_22_dongle dongle_display
-#    snippet: zmk-usb-logging
+    shield: xiao_dongle dongle_display
   - board: seeeduino_xiao_ble
-    shield: custom_22_left
+    shield: custom_22
+    artifact-name: custom_22_left
   - board: seeeduino_xiao_ble
-    shield: custom_22_right
+    shield: custom_22
+    artifact-name: custom_22_right
+  - board: efogtech_trackball_0
   - board: seeeduino_xiao_ble
     shield: settings_reset
