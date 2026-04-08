@@ -14,4 +14,4 @@ include:
   - board: seeeduino_xiao_ble
     shield: settings_reset
   - board: efogtech_trackball_0
-    snippet: settings_reset
+    shield: settings_reset
