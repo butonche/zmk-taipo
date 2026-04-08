@@ -1,4 +1,4 @@
-/* Dongle: trackball input-split proxy and listener */
+/* Dongle: trackball input-split proxy, listener, and sensor forwarding */
 
 / {
     split_inputs {
@@ -14,5 +14,31 @@
     trackball_listener: trackball_listener {
         compatible = "zmk,input-listener";
         device = <&trackball_split>;
+    };
+
+    /* Dummy encoder nodes for sensor forwarding from trackball peripheral.
+     * Disabled — no driver init. Needed so zmk,keymap-sensors phandles resolve. */
+    left_encoder: encoder_left {
+        compatible = "efog,ec11-ish";
+        a-gpios = <&gpio0 0 0>;
+        b-gpios = <&gpio0 1 0>;
+        steps = <48>;
+        pulses = <4>;
+        status = "disabled";
+    };
+
+    right_encoder: encoder_right {
+        compatible = "efog,ec11-ish";
+        a-gpios = <&gpio0 2 0>;
+        b-gpios = <&gpio0 3 0>;
+        steps = <48>;
+        pulses = <4>;
+        status = "disabled";
+    };
+
+    sensors: sensors {
+        compatible = "zmk,keymap-sensors";
+        sensors = <&left_encoder &right_encoder>;
+        triggers-per-rotation = <12>;
     };
 };

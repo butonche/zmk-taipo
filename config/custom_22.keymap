@@ -147,6 +147,7 @@
 
     default_layer {
       display-name = "Default";
+      sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
       bindings = <
         KB_NONE
         /* Trackball buttons 22-29 */
@@ -161,6 +162,7 @@
 
     extras_layer {
       display-name = "Extras";
+      sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
       bindings = <
         KB_TRANS
         &kp LC(C)   &kp LC(V)
@@ -173,6 +175,7 @@
 
     scroll_layer {
       display-name = "Scroll";
+      sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
       bindings = <
         KB_TRANS
         &trans  &trans
@@ -185,6 +188,7 @@
 
     snipe_layer {
       display-name = "Snipe";
+      sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
       bindings = <
         KB_TRANS
         &trans  &trans
@@ -197,6 +201,7 @@
 
     user_layer {
       display-name = "User";
+      sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
       bindings = <
         KB_TRANS
         &trans  &trans
